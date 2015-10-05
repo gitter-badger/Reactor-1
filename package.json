@@ -1,0 +1,35 @@
+{
+  "name": "reactor",
+  "version": "1.0.0",
+  "description": "Reactjs Webpack for Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve | npm run dev",
+    "serve": "./node_modules/.bin/http-server -p 8080",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailtoharshit/Reactor.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "React"
+  ],
+  "author": "Harshit Pandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mailtoharshit/Reactor/issues"
+  },
+  "homepage": "https://github.com/mailtoharshit/Reactor#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
